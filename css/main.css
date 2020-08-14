@@ -23,9 +23,14 @@
 /* Features */
 
 /* Our teem */
-.teem {
+.team {
   background-color: var(--secondary-bg-color);
 }
-.teem .list {
+.team .list {
   background-color: #ffffff;
+}
+
+.team .list.link:hover,
+.team .list.link:focus {
+  color: var(--accent-color);
 }
