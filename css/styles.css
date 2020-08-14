@@ -62,7 +62,10 @@ body {
 }
 
 /* Features */
-
+.features .image:hover,
+.features .image:focus {
+  background-color: var(--accent-color);
+}
 /* Our team */
 .team {
   background-color: var(--secondary-bg-color);
@@ -87,6 +90,10 @@ address {
 }
 .join .text {
   color: var(--secondary-text-color);
+}
+.join .list.a:hover,
+.join .list.a:focus {
+  color: var(--accent-color);
 }
 
 /* Button */
