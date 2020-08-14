@@ -78,6 +78,20 @@ body {
   color: var(--accent-color);
 }
 
+/* PORTFOLIO */
+.menu .button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+}
+.menu .button:hover,
+.menu .button:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+.section-list .text {
+  color: var(--secondary-text-color);
+}
+
 /* Footer */
 footer {
   background-color: var(--footer-bg-color);
