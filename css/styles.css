@@ -10,8 +10,8 @@ root {
 
 /* Body */
 body {
-  background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
+  background-color: #ffffff;
+  color: #757575;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -22,53 +22,56 @@ body {
 /* Navigation */
 /* Logo */
 .logo {
-  color: var(--accent-color);
+  color: #2196f3;
   font-family: Raleway, sans-serif;
-  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19px;
+  text-decoration: none;
 }
-.logo-word {
-  color: var(--title-text-color);
-  font-family: Raleway, sans-serif;
+.logo .main {
+  color: #212121;
 }
-.logo-text {
-  color: var(--secondary-text-color);
-  font-family: Raleway, sans-serif;
+.logo .accent {
+  color: #ffffff;
 }
 
 /* Site nav */
 .site-nav .link {
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14px;
-  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: #2196f3;
 }
-.address .link {
-  color: var(--title-text-color);
-  font-weight: 500;
+.address .link,
+.site-nav .link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
+.address .link {
+  color: #757575;
+  font-weight: 400;
+}
+
 .address .link:hover,
 .address .link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 /* Hero */
-
+.hero {
+  background-color: #2f303a;
+}
 .hero .title {
-  color: var(--secondary-text-color);
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -79,58 +82,65 @@ body {
 
 /* Headlines */
 .section-title {
+  color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 .section .title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  color: #212121;
 }
 .activity .title {
-  color: var(--secondary-text-color);
+  color: #ffffff;
+  text-align: center;
+}
+.activity .title,
+.section .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
 }
 
 /* Features */
+.features .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
 .features .image:hover,
 .features .image:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 /* Our team */
 .team {
-  background-color: var(--secondary-bg-color);
+  background-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team .text {
+  font-weight: 400;
 }
 .team .title {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
   text-align: center;
 }
 .team .list {
-  background-color: var(--primary-bg-color);
+  background-color: #ffffff;
 }
 .team .list.link:hover,
 .team .list.link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 .team .p {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
   text-align: center;
 }
 
 /* PORTFOLIO */
 .menu .button {
-  color: var(--title-text-color);
-  background-color: var(--secondary-bg-color);
+  color: #212121;
+  background-color: #f5f4fa;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -139,11 +149,11 @@ body {
 }
 .menu .button:hover,
 .menu .button:focus {
-  color: var(--secondary-text-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .section-list .text {
-  color: var(--secondary-text-color);
+  color: #ffffff;
 }
 .section-list .title {
   letter-spacing: 0.06em;
@@ -151,10 +161,12 @@ body {
 
 /* Footer */
 footer {
-  background-color: var(--footer-bg-color);
+  background-color: #2f303a;
 }
 address {
-  color: var(--secondary-text-color);
+  color: #ffffff;
+  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -162,23 +174,24 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 .join .text {
-  color: var(--secondary-text-color);
+  color: #ffffff;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 .join .list.a:hover,
 .join .list.a:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 /* Button */
 .button {
-  color: var(--secondary-text-color);
-  background-color: var(--accent-color);
-  font-family: inherit;
+  color: #ffffff;
+  background-color: #2196f3;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  text-decoration: none;
 }
